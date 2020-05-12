@@ -1,0 +1,23 @@
+1. Finish the tasks in folder 1 + 2 (they contain separate READMEs with instructions)
+
+2. Answer following questions:
+
+  a. Let us know about some Apps that are currently out on the market, where you think they did a good job in development and justify your choice.
+  b. How would you handle this situation?
+     The boss comes over to you and asks for an implementation with which he can see the performance of his crypto wallet over the past weeks. He is an iOS user and doesn't know the Android
+     platform too well. How would you approach this task?
+  c. What kind of (technical) projects do you work on in your spare time?
+
+
+2. A. Revolut; I could say they have paid lots of attention to UX.
+There is no useless space. With the first entry, you'd find lots of useful information and access to most used parts such as Add money, list of transactions. The bottom navigation bar separates sections. Switching between cards and access to their settings is easy and practical.
+The point is, at the first release of the app, it had some issues but, they could manage it to fix and improve the app while they were working on the marketing.
+
+2. B. By "boss", if you mean a C-level manager, I ask for a meeting including at least project manager of Android team, one developer form API and one designer to be involved in that conversation.
+Then after we hear her/his idea and had a big picture of the need, the project manager could make related necessary tasks for developers and designers. the design team could work on a concept/mockup to show to developers to know their opinion and know if the design fulfils the Android design guidelines and/or our project structure could fit that implementation.
+Then get approve from the product manager/owner about that.
+Meanwhile, there is a concrete connection between client and API on how they have to communicate to have a response on the app.
+The Android developer doesn't wait until both teams finish their works then starts(of course it's great to have everything ready then start but, it doesn't happen most of the time). s/he could start to implement as much as possible. If there is a mocked response, s/he could go further.
+But if it's only a conversation between a mid-level manager and me, there is a rush and the deadline is close, we don't have enough human resources, and workflow in that company is like the old-fashion way, I'd show the Android application and how it is until now, and ask for where s/he wants to see the chart/statics, then sending some design and ask which one you prefer. While s/he chooses, I talk with API developer and explain what we need. Then work on that section.
+
+2. C. Different open-source projects to try new technologies. Sometimes when I want to learn something new, I work on a project and on an article, so the other developers could learn it faster with a sample code.
