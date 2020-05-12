@@ -60,24 +60,18 @@ class BitzViewModel @Inject constructor(
         val result = mutableListOf<RecyclerItem>()
         when (this) {
             is MetalWalletUI -> {
-                for (i in bitz.metalWallet.filter { it.deleted.not() }) {
-                    bitz.metal.firstOrNull { it.id == i.metalId }?.run {
-                        result.add(this as RecyclerItem)
-                    }
+                bitz.metal.firstOrNull { it.id == this.metalId }?.run {
+                    result.add(this as RecyclerItem)
                 }
             }
             is CryptoWalletUI -> {
-                for (i in bitz.cryptoWallet.filter { it.deleted.not() }) {
-                    bitz.cryptocoin.firstOrNull { it.id == i.cryptocoinId }?.run {
-                        result.add(this as RecyclerItem)
-                    }
+                bitz.cryptocoin.firstOrNull { it.id == this.cryptocoinId }?.run {
+                    result.add(this as RecyclerItem)
                 }
             }
             is FiatWalletUI -> {
-                for (i in bitz.fiatWallet.filter { it.deleted.not() }) {
-                    bitz.fiat.firstOrNull { it.id == i.fiatId }?.run {
-                        result.add(this as RecyclerItem)
-                    }
+                bitz.fiat.firstOrNull { it.id == this.fiatId }?.run {
+                    result.add(this as RecyclerItem)
                 }
             }
         }
